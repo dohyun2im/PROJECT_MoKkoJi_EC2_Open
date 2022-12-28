@@ -1,0 +1,33 @@
+
+.contentBox{ height : 280px; word-break: break-all; overflow-y : scroll; margin : 10px 0;
+    display: flex; flex-direction: column; justify-content: space-between; align-items: center}
+.contentBox::-webkit-scrollbar{width: 5px;}
+.contentBox::-webkit-scrollbar-track{ background-color: grey; border-radius: 10px; box-shadow: inset 0px 0px 5px white; display : none;}
+.contentBox::-webkit-scrollbar-thumb{ background-color: #2f3542; border-radius: 10px; }
+
+.textBox{width : 100%; height : 200px; margin-bottom: 10px; overflow-y : scroll;}
+.textBox::-webkit-scrollbar{width: 5px;}
+.textBox::-webkit-scrollbar-track{ background-color: grey; border-radius: 10px; box-shadow: inset 0px 0px 5px white; display : none;}
+.textBox::-webkit-scrollbar-thumb{ background-color: #2f3542; border-radius: 10px; }
+
+.likeBox{display : flex; align-items: center; justify-content: center; margin : 10px 0;}
+.likeBox button{margin : 0 10px; color: white;}
+.likeBtn{ background-color: #25316D; border-radius: 5px; border : none; width: 120px; height: 40px;}
+.dislikeBtn{ background-color: #B7C4CF; border-radius: 5px; border : none; width: 120px; height: 40px;}
+
+#replyList{ overflow-y : scroll; height : 200px; word-break: break-all;}
+#replyList::-webkit-scrollbar{width: 5px;}
+#replyList::-webkit-scrollbar-track{ background-color: grey; border-radius: 10px; box-shadow: inset 0px 0px 5px white; display : none;}
+#replyList::-webkit-scrollbar-thumb{ background-color: #2f3542; border-radius: 10px;}
+
+.rViewBtn:hover{cursor: url( ../img/clicker.png ), auto;}
+.modal_title Button{ margin-left : 10px; }
+.modalbody_my{
+    background-image: url("./../img/modal.png");
+    background-position-y: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.modal-content{
+    box-shadow: 0.5vh 0.5vh 1vh #444553; /* 유정 추가 */
+}

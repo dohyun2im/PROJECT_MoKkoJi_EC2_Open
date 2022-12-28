@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'GangwonEdu_OTFBoldA';
+}
+
+#button-addon2{ /* 버튼 */
+    background-color : white;
+    color : rgb(118, 118, 118);
+}
+
+.modal-body , .modal-header{
+    background-color : #ebf7f7; /* 하늘 색 */
+}
+
+.write_body{
+    background-image: url("./../img/modal.png");
+    background-position-y: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height : 415px;
+}
